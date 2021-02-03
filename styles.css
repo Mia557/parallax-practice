@@ -1,4 +1,26 @@
 .jumbotron {
-    padding: 300px;
+    min-height: 500px;
+    padding: 20%;
     background-image: url(jared-rice-Tf-qtxkNisk-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#one {
+    background-image: url(laya-clode-Zf4yTni1CWg-unsplash.jpg);
+}
+
+#two {
+    background-image: url(mayank-gaur-d7C8PiCxHkQ-unsplash.jpg)
+}
+#three {
+    background-image: url(veronica-reverse-zq-7krypDIE-unsplash.jpg)
+}
+#four {
+    background-image: url(brandon-hoogenboom--0G7sYVxw08-unsplash.jpg)
+}
+.b {
+    background-color:blueviolet;
+    padding: 100px;
 }
