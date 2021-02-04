@@ -1,11 +1,15 @@
 .jumbotron {
     min-height: 500px;
     padding: 20%;
+    text-align: center;
     background-image: url(jared-rice-Tf-qtxkNisk-unsplash.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'lobster';
+    text-color: black;
+    margin-top: -40px;
 }
 #one {
     background-image: url(laya-clode-Zf4yTni1CWg-unsplash.jpg);
@@ -20,7 +24,10 @@
 #four {
     background-image: url(brandon-hoogenboom--0G7sYVxw08-unsplash.jpg)
 }
-.b {
-    background-color:blueviolet;
-    padding: 100px;
+.footer {
+    padding: 50px;
+    text-align: center;
+}
+.navbar {
+    background: transparent;
 }
