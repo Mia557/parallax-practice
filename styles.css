@@ -1,6 +1,7 @@
 
 
 .jumbotron {
+   
     min-height: 500px;
     padding: 20%;
     text-align: center;
@@ -11,19 +12,22 @@
     background-size: cover;
     font-family: 'lobster';
     margin-top: -70px;
+    
+   
+   
 }
 #one {
     background-image: url(laya-clode-Zf4yTni1CWg-unsplash.jpg);
 }
 
 #two {
-    background-image: url(mayank-gaur-d7C8PiCxHkQ-unsplash.jpg)
+    background-image: url(mayank-gaur-d7C8PiCxHkQ-unsplash.jpg);
 }
 #three {
-    background-image: url(veronica-reverse-zq-7krypDIE-unsplash.jpg)
+    background-image: url(veronica-reverse-zq-7krypDIE-unsplash.jpg);
 }
 #four {
-    background-image: url(brandon-hoogenboom--0G7sYVxw08-unsplash.jpg)
+    background-image: url(brandon-hoogenboom--0G7sYVxw08-unsplash.jpg);
 }
 .footer {
     padding: 50px;
@@ -31,4 +35,34 @@
     background-color: black;
     margin-top: -50px;
     color: white;
+}
+#one {
+  
+      @media (min-width: 400px) {
+        p{
+          background-image: url(laya-clode-Zf4yTni1CWg-unsplash.jpg);
+        }
+      }
+}
+#two {
+   
+      @media (min-width: 400px) {
+        p{
+          background-image: url(mayank-gaur-d7C8PiCxHkQ-unsplash.jpg);
+        }
+      }
+}
+#three {
+    @media screen {
+        p{
+            background-image: url(veronica-reverse-zq-7krypDIE-unsplash.jpg);
+        }
+    }
+}
+#four {
+    @media screen {
+        p{ 
+            background-image: url(brandon-hoogenboom--0G7sYVxw08-unsplash.jpg);   
+        }
+    }
 }
