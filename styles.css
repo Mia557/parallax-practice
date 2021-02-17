@@ -1,3 +1,5 @@
+
+
 .jumbotron {
     min-height: 500px;
     padding: 20%;
@@ -8,7 +10,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'lobster';
-    margin-top: -40px;
+    margin-top: -70px;
 }
 #one {
     background-image: url(laya-clode-Zf4yTni1CWg-unsplash.jpg);
@@ -26,7 +28,7 @@
 .footer {
     padding: 50px;
     text-align: center;
-}
-.navbar {
-    background: transparent;
+    background-color: black;
+    margin-top: -50px;
+    color: white;
 }
